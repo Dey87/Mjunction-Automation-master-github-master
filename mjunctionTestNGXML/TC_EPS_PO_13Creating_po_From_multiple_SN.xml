@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.baseClasses.Listener"></listener>
+</listeners>
+    <test name="Test">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="11"></parameter>   
+            <class name="com.testScripts_mjunction.TC_PO_13_Creating_po_From_multiple_SN"/>
+        </classes>
+    </test> 
+</suite> 

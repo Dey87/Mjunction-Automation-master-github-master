@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.baseClasses.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="windowschrome"/>
+    <parameter name="TestcaseNo" value="1"/>
+    <classes>
+      <class name="com.testScripts_mjunction.TG3_TC_TenderCreation_01_tender_publish_with_tender_approval">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+          <include name="Tenderpublished_after_tender_approval_TG3" invocation-numbers="0"/>
+          <include name="BeforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.testScripts_mjunction.TG3_TC_TenderCreation_01_tender_publish_with_tender_approval -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

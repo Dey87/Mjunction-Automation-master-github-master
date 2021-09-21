@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.baseClasses.Listener"></listener>
+</listeners>
+    <test name="Test">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="20"></parameter>   
+            <class name="com.testScripts_mjunction.TG1_TC_Indent_03_Creation_with_approval_Reviewed_to_creator" />
+        </classes>
+    </test> 
+</suite>

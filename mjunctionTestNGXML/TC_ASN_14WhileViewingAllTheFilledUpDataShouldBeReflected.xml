@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.baseClasses.Listener"></listener>
+</listeners>
+    <test name="Test1">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="8"></parameter>   
+            <class name="com.testScripts_mjunction.Pre_CondtionScriptForASNModule" />
+        </classes>
+        </test>
+    <test name="Test2">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="49"></parameter>   
+            <class name="com.testScripts_mjunction.TC_ASN_14WhileViewingAllTheFilledUpDataShouldBeReflected" />
+        </classes>      
+     
+    </test>
+</suite>

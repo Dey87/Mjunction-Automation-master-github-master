@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.baseClasses.Listener"></listener>
+</listeners>
+  <test name="Test1">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="72"></parameter>   
+            <class name="com.testScripts_mjunction.Pre_CondtionScriptForGRNModule"/>
+        </classes>
+    </test>
+     
+<test name="Test2">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="62"></parameter>
+            <class name="com.testScripts_mjunction.TC_GRN_15VerifyTheFunctionalityOfGRNListPageOfCancelledGRNTest"/>
+        </classes>
+    </test>  
+</suite> 

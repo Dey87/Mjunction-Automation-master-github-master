@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.baseClasses.Listener"></listener>
+</listeners>
+
+ <test name="Test1">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="36"></parameter>   
+            <class name="com.testScripts_mjunction.TenderWithCompletedStatusWorkFlowWithThreeBiddersTest" />
+        </classes>
+    </test> 
+     
+    <test name="Test2">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="60"></parameter>   
+            <class name="com.testScripts_mjunction.TC_Auction_042_E2E_FlowWithAuctionRuleDutchAndBiddingTypeNormalPart3Test"/>
+        </classes>
+    </test> 
+</suite>

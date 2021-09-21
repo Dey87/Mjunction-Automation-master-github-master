@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.baseClasses.Listener"></listener>
+</listeners>
+    <test name="Test">
+        <parameter name="browserName" value="windowschrome"></parameter>
+        <classes>
+           <parameter name="TestcaseNo" value="24"></parameter>   
+            <class name="com.testScripts_mjunction.TG1_TC_Indent_07_Assignment_Process_Revert_to_Indent_creator" />
+        </classes>
+    </test> 
+</suite>
